@@ -7,6 +7,7 @@ import Banner from '../components/banner'
 import Tabs from '../components/Tabs'
 
 export default function Home() {
+
   return (
     <div>
       <Head>
@@ -75,7 +76,7 @@ export default function Home() {
                 ))}
               </section>
             </div>
-            <div className="grid xl-30 lg-100 md-100 sm-100">
+            <div className="grid xl-30 md-100 sm-100">
               <div className="section-padding">
                 <Tabs />
               </div>

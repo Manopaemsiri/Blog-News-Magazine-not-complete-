@@ -27,7 +27,6 @@ html.global-search-opened, body.global-search-opened{overflow-y:hidden!important
     html.sidenav-opened, body.sidenav-opened{overflow-y:hidden!important;}
 }
 
-
 /* Section & Container */
 .section-padding{padding:4rem 0;}
 .container{position:relative; width:100%; max-width:calc(1300px - 2rem); padding:0; margin:0 auto;}
@@ -52,7 +51,6 @@ html.global-search-opened, body.global-search-opened{overflow-y:hidden!important
     .section-padding{padding:2.5rem 0;}
     .container{max-width:calc(100% - 2rem);}
 }
-
 
 /* Typography */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .p, li, label{
@@ -461,7 +459,6 @@ fieldset{padding:0; margin:0; border:0;}
     .xs-hide{display:none;}
 }
 
-
 /* Spacing */
 .p-0{padding:0!important;}
 .p-1{padding:.25rem!important;} .p-2{padding:.5rem!important;}
@@ -508,12 +505,11 @@ fieldset{padding:0; margin:0; border:0;}
 
 /* Tab 01 */
 .tab-01 button{
-    width:50%; background:#222; color:#ffffff;
+    width:100%; max-width:50%; background:#222; color:#ffffff;
 }
 .tab-01 button.Mui-selected{
     background:red; color:#ffffff;
 }
-
 
 /* Special Card 01 */
 .ss-card-01{
@@ -558,6 +554,3 @@ fieldset{padding:0; margin:0; border:0;}
     .ss-card-01 .text-container{width:100%; padding:1rem 0 0 0;}
 }
 
-/* Special Card 02 */
-
-.color-black{color:black!important;}

@@ -1,0 +1,10 @@
+:root{
+  --p-color:#cf0a2c;
+  --s-color:#191919;
+}
+html, body{background:#ffffff; color:#141414;}
+
+
+/* Color */
+.color-black, .h-color-black:hover{color:#000000!important;}
+.color-white, .h-color-white:hover{color:#ffffff!important;}
