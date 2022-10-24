@@ -5,6 +5,7 @@ import { BiConversation, BiBookReader } from "react-icons/bi"
 
 import Banner from '../components/banner'
 import Tabs from '../components/Tabs'
+import Trendingnews from '../components/trendingnews'
 
 export default function Home() {
 
@@ -78,11 +79,12 @@ export default function Home() {
             </div>
             <div className="grid xl-30 md-100 sm-100">
               <div className="section-padding">
-                <Tabs />
+                <Tabs/>
               </div>
             </div>
           </div>
         </div>
+        <Trendingnews/>
       </main>
     </div>
   )

@@ -259,9 +259,10 @@ fieldset{padding:0; margin:0; border:0;}
 /* Special Image */
 .ss-img{display:block; position:relative; width:100%; padding:64% 0 0 0; overflow:hidden;}
 .ss-img.square{padding:100% 0 0 0;}
+.ss-img.vertical-01{padding:110% 0 0 0;}
 .ss-img > .img-bg{
     position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
-    background-position:center; transition:transform .25s, filter .25s;
+    background-position:center; transition:transform 1s, filter .25s;
 }
 .ss-card:hover .ss-img > .img-bg, .ss-img:hover > .img-bg{transform:scale(1.1);}
 

@@ -29,7 +29,33 @@
 .banner-01 .swiper-slide > .wrapper .text-wrapper > .card-footer .comment-view > .item{
     display:flex; align-items:center; color:#e93314; font-size:.9rem;
 }
-.banner-01 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
-  background:#e93314!important; 
-}
+.banner-01 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{background:#e93314!important;}
 .banner-01 .swiper-pagination-progressbar{bottom:0; top:unset!important;}
+
+/* banner-02 */
+.banner-02{position:relative; margin-bottom:10rem;}
+.banner-02 .swiper-wrapper{padding-left:400px; position: relative;}
+.banner-02 .background-wrapper{
+  position:absolute; top:0; left:0; width:400px; height:100%; background:#111;
+  overflow:hidden; z-index:2; 
+}
+.banner-02 .background-wrapper > .text{
+ position:relative; width:100%; height: 100%; 
+}
+.banner-02 .background-wrapper > .text .swiper-btns{
+  width:100%; max-width:5rem; z-index: 2;
+}
+.banner-02 .background-wrapper > .text .swiper-btns > .btn{width:2rem; height:2rem; background:#e93314;}
+.banner-02 .background-wrapper > .text .swiper-btns > .swiper-button-prev,
+.banner-02 .background-wrapper > .text .swiper-btns > .swiper-button-next{top:unset; bottom:1rem;}
+.banner-02 .background-wrapper > .text .swiper-btns > .swiper-button-prev{right:3.5rem; left:auto;}
+.banner-02 .background-wrapper > .text .swiper-btns > .swiper-button-next{right:1rem;}
+.banner-02 .background-wrapper > .text .swiper-btns > .swiper-button-prev::after,
+.banner-02 .background-wrapper > .text .swiper-btns > .swiper-button-next::after{
+  font-size:1rem; color:#ffffff; 
+}
+@media screen and (max-width:991.98px){
+  .banner-02 .swiper-wrapper{padding-left:unset;}
+  .banner-02 .background-wrapper{position:relative; overflow:unset; width:100%; height:100%; min-height:300px;}
+}
+

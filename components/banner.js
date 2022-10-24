@@ -10,7 +10,6 @@ import "swiper/css/navigation";
 
 import { Pagination, Navigation, EffectFade } from "swiper";
 
-
 export default function Banner() {
   return (
     <>
@@ -45,27 +44,26 @@ export default function Banner() {
                   consectetur Nulla fringilla purus at leo dignissim congue. Mauris elementum accumsan.
                 </p>
                 <div className="card-footer mt-2">
-                <div className="profile">
-                  <div className="image-container">
-                    <img src="/img/avatars/01.jpg" alt="Personal"></img>
+                  <div className="profile">
+                    <div className="image-container">
+                      <img src="/img/avatars/01.jpg" alt="Personal"></img>
+                    </div>
+                    <div className="text">
+                      <p className="xxxs color-white ml-2 fw-600">BY MANOP AEMSIRI</p>
+                    </div>
                   </div>
-                  <div className="text">
-                    <p className="xxxs color-white ml-2 fw-600">BY MANOP AEMSIRI</p>
-                  </div>
-                </div>
-                <div className="comment-view">
-                  <div className="item mr-2">
-                    <BiConversation className="icon"/> 
-                    <span className="color-white p xxs fw-600 ml-1">3</span>
-                  </div>
-                  <div className="item">
-                    <BiBookReader/> 
-                    <span className="color-white p xxs fw-600 ml-1">127 view</span>
+                  <div className="comment-view">
+                    <div className="item mr-2">
+                      <BiConversation className="icon"/> 
+                      <span className="color-white p xxs fw-600 ml-1">3</span>
+                    </div>
+                    <div className="item">
+                      <BiBookReader/> 
+                      <span className="color-white p xxs fw-600 ml-1">127 view</span>
+                    </div>
                   </div>
                 </div>
               </div>
-              </div>
-            
             </div>
           </div>
         </SwiperSlide>
