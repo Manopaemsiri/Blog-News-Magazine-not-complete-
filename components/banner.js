@@ -27,7 +27,7 @@ export default function Banner() {
            {bgImage:'/img/bg/banner-03.jpg'},
            {bgImage:'/img/bg/banner-04.jpg'}
         ].map((d, i)=>(
-          <SwiperSlide className="swiper-slide">
+          <SwiperSlide key={`card_${i}`} className="swiper-slide">
           <div className="wrapper">
             <div className="img-bg" style={{backgroundImage:`url('${d.bgImage}')`}}></div>
             <div className="container">
